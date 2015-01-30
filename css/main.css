@@ -63,7 +63,8 @@ cite{
 }
 
 .cite{
-	text-align: right
+	text-align: right;
+	background-color: #bdb9a0;
 }
 
 nav{
