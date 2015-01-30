@@ -1,0 +1,74 @@
+html{
+	background-color: #bdb9a0;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+}
+
+h1{
+	color: #4d472b;
+	font-weight: normal;
+	font-size: 3rem;
+	font-style: normal;
+	font-family: 'Bevan', cursive;
+	line-height: 1.5;
+}
+
+a{
+	color: #720e1a;
+}
+
+a:hover{
+	color: red;
+}
+
+h2{
+	color: #4d472b;
+	font-weight: normal;
+	font-size: 2rem;
+	font-family: 'Bevan', cursive;
+	line-height: 1.5;
+}
+
+h3{
+	color: #4d472b;
+	font-weight: normal;
+	font-size: 1.5rem;
+	font-family: 'Bevan', cursive;
+	line-height: 1.5
+}
+
+b{
+	color: #956f1e;
+	font-weight: normal;
+}
+
+blockquote{
+	font-size: 2rem;
+}
+
+cite{
+	color: #4d472b;
+	font-size: .7rem;
+}
+
+.cite{
+	text-align: right
+}
+
+ol{
+	list-style-type: lower-roman;
+	line-height: 1.5;
+}
+
+dt{
+	font-weight: bold;
+}
+
+figcaption{
+	font-size: .7rem;
+}
+
+.v, .m{
+	list-style-type: disc;
+}
