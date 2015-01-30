@@ -5,17 +5,27 @@ html{
 	font-size: 1rem;
 }
 
+header{
+	background-color: #646360;
+	padding: 0.5em;
+	margin: 0;
+}
+
 h1{
-	color: #4d472b;
+	color: white;
 	font-weight: normal;
 	font-size: 3rem;
 	font-style: normal;
 	font-family: 'Bevan', cursive;
 	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	text-align: center;
 }
 
 a{
-	color: #720e1a;
+	color: white;
+	display: block;
 }
 
 a:hover{
@@ -56,9 +66,27 @@ cite{
 	text-align: right
 }
 
+nav{
+	text-align: center;
+}
+
 ol{
-	list-style-type: lower-roman;
+	list-style-type: none;
 	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+nav a{
+	display: inline-block;
+	padding: 0.5em 0.75em;
+	text-decoration: none;
+	border-radius: 4px;
+	background-color: #720e1a;
+}
+
+nav li{
+	display: inline-block;
 }
 
 dt{
@@ -70,5 +98,31 @@ figcaption{
 }
 
 .v, .m{
-	list-style-type: disc;
+	list-style-type: circle;
 }
+
+.ss{
+	color: white;
+}
+
+footer{
+	background-color: #646360;
+	margin: 0;
+	padding: 0.5em;
+}
+
+figure{
+	border: 5px solid black;
+	border-radius: 10px;
+	margin: 0;
+	padding: 1em 2em 0.5em 3em;
+}
+
+footer a{
+	color: #720e1a;
+}
+
+img{
+	width: 100%;
+}
+
